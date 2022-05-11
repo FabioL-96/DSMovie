@@ -7,17 +7,23 @@
     --white: #fff;
 }
 
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
-html, body {
+html,
+body {
     background-color: var(--bg-gray);
 }
 
@@ -45,7 +51,8 @@ nav a {
     font-weight: 400;
 }
 
-a, a:hover {
+a,
+a:hover {
     text-decoration: none;
     color: unset;
 }
@@ -55,7 +62,7 @@ a, a:hover {
     align-items: center;
 }
 
-.dsmovie-contact-container img{
+.dsmovie-contact-container img {
     margin-right: 10px;
 }
 
@@ -90,7 +97,8 @@ a, a:hover {
     text-align: center;
 }
 
-.dsmovie-btn, .dsmovie-btn:hover  {
+.dsmovie-btn,
+.dsmovie-btn:hover {
     width: 180px;
     height: 40px;
     background-color: var(--color-primary);
@@ -103,3 +111,7 @@ a, a:hover {
     border-radius: 4px;
 }
 
+.dsmovie-form-container {
+    padding: 40px 0;
+    max-width: 480px;
+}
